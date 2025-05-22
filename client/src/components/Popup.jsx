@@ -1,7 +1,8 @@
-import axios from "axios";
+
 import React, { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
 import { baseURL } from "../utils/constant";
+import { Axios } from "axios";
 
 const Popup = ({ setShowPopup, popupContent, setUpdateUI }) => {
   const [input, setInput] = useState(popupContent.text);

@@ -1,4 +1,4 @@
-import axios from "axios";
+import { Axios } from "axios";
 import React from "react";
 import { AiFillEdit } from "react-icons/ai";
 import { RxCross1 } from "react-icons/rx";
